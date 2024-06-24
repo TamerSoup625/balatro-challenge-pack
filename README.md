@@ -9,7 +9,7 @@ This is a mod made for [Balatro](https://www.playbalatro.com/) that adds 10 new 
 - **Icarus**: You can play the same poker hand only a few times
 - **Jokers Only PLUS**: Consumeables do not appear AT ALL (and neither do Vouchers)
 - **The Trial**: Most Jokers and Consumeables are banned
-- **Impossible**: Tihs might actually be impossible
+- **Impossible**: This might actually be impossible
 
 Hope you like it! Requires [Steamodded](https://github.com/Steamopollys/Steamodded)
 
