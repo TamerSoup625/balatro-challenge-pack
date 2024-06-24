@@ -11,7 +11,7 @@ This is a mod made for [Balatro](https://www.playbalatro.com/) that adds 10 new 
 - **The Trial**: Most Jokers and Consumeables are banned
 - **Impossible**: This might actually be impossible
 
-Hope you like it! Requires [Steamodded](https://github.com/Steamopollys/Steamodded).
+Hope you like it! Requires [Steamodded](https://github.com/Steamopollys/Steamodded) 0.9.8 or 1.0
 
 ![Screenshot 2024-06-24 144125](https://github.com/TamerSoup625/balatro-challenge-pack/assets/107559799/674c9962-8274-49c4-abb0-da533886b5b7)
 ![Screenshot 2024-06-24 144134](https://github.com/TamerSoup625/balatro-challenge-pack/assets/107559799/3739b0a4-0fba-41ca-a8e6-175447808b3f)
