@@ -123,6 +123,7 @@ function SMODS.INIT.TSDecksNChallenges()
                 {id = 'j_wrathful_joker'},
                 {id = 'j_arrowhead'},
                 {id = 'j_flower_pot'},
+                {id = 'j_idol'},
             },
             banned_tags = {
             },
@@ -643,8 +644,14 @@ function SMODS.INIT.TSDecksNChallenges()
 
     local Card_is_suit_ref = Card.is_suit
     function Card:is_suit(suit, bypass_debuff, flush_calc)
-        if G.GAME.modifiers.no_spade_suit and suit == "Spades" then
-            return false
+        if G.GAME.modifiers.no_spade_suit then
+            if suit == "Spades" then
+                return false
+            end
+            -- Smeared Joker only works on Hearts and Diamonds
+            if suit == "Clubs" and next(find_joker('Smeared Joker')) and (self.base.suit == 'Spades') and (self.ability.name ~= "Wild Card") then
+                return false
+            end
         end
         return Card_is_suit_ref(self, suit, bypass_debuff, flush_calc)
     end
